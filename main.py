@@ -26,7 +26,7 @@ pairs = pairs_gen(words)
 
 
 dictionary = {}
-rome = ["XI"]
+roman_numbers = ["XI", "V"]
 # почитать про регулярные выражения OR regular expressions OR regexp
 for w1, w2 in pairs:
     if w1.isdigit() or w2.isdigit():
